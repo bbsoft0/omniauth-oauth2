@@ -28,7 +28,7 @@ module OmniAuth
       option :token_params, {}
       option :token_options, []
       option :auth_token_params, {}
-      option :provider_ignores_state, false
+      option :provider_ignores_state, true
 
       attr_accessor :access_token
 
